@@ -1,0 +1,50 @@
+body {
+  font: 13px Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.mdl-layout__drawer .mdl-layout-title {
+  height: 150px;
+}
+
+.input {
+  width: 75%;
+}
+
+.messagecontainer {
+  width: 100%;
+}
+
+.mymessage {
+  float: right;
+  margin: 5px 10px;
+}
+
+.othermessage {
+  float: left;
+  margin: 5px 10px;
+}
+
+#activity {
+  height: 16px;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  margin: 16px;
+  padding: 0px;
+}
+
+#messages li {
+  float: left;
+}
